@@ -13,3 +13,6 @@ venv.bak/
 *.h5
 data/processed_data.csv
 graphs/*.png
+git status 
+git push 
+git commit 
