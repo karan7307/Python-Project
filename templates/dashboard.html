@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burnout AI Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container animate-fade-in" style="max-width: 800px;">
+        <h1>Student Burnout Dashboard</h1>
+        
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2rem;">
+            <div class="card" style="background: var(--glass); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
+                <h3 style="color: #818cf8; margin-bottom: 0.5rem;">Total Students</h3>
+                <p style="font-size: 2rem; font-weight: 700;">10</p>
+            </div>
+            <div class="card" style="background: var(--glass); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
+                <h3 style="color: #c084fc; margin-bottom: 0.5rem;">Average Score</h3>
+                <p style="font-size: 2rem; font-weight: 700;">45%</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 2.5rem;">
+            <p style="color: var(--text-muted); text-align: center;">Detailed Analytics and Graphs are coming soon.</p>
+            <div style="height: 200px; background: repeating-linear-gradient(45deg, var(--glass), var(--glass) 10px, transparent 10px, transparent 20px); border-radius: 12px; margin-top: 1rem; opacity: 0.5;"></div>
+        </div>
+
+        <a href="/" style="display: block; text-align: center; margin-top: 2rem; color: var(--primary); text-decoration: none; font-weight: 600;">&larr; Back to Predictor</a>
+    </div>
+</body>
+</html>

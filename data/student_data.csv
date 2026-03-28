@@ -1,0 +1,11 @@
+student_id,study_hours,stress_level,sleep_hours,extracurricular_activities,burnout_score
+1,8,4,7,2,0.3
+2,10,7,5,1,0.6
+3,6,2,8,3,0.1
+4,12,9,4,0,0.85
+5,5,1,9,4,0.05
+6,9,5,6,2,0.45
+7,7,3,7,2,0.25
+8,11,8,5,1,0.75
+9,4,2,8,3,0.1
+10,13,10,3,0,0.95
