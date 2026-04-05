@@ -31,3 +31,4 @@ def save_processed_data(df, path='data/processed_data.csv'):
     Saves cleaned data to CSV.
     """
     df.to_csv(path, index=False)
+
